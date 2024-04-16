@@ -2,7 +2,7 @@
 Exemplos de implementação utilizando o microcontrolador PIC18 e o assembler GPASM.
 
 ## Display (HD44780) e teclado matricial
-**Obs:** O código pressupõe que os resistores estão em pull-down. É um pequeno detalhe: basta trocar
+**Obs:** O código da pasta pressupõe que os resistores estão em pull-down. É um pequeno detalhe: basta trocar
 as instruções que usam o BTFSC e BTFSS de acordo com o estado lógico adequado, não esquecendo que
 em pull-up os botões são baixo ativos (ligado em nível lógico baixo e desligado em alto).
 
