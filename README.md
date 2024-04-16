@@ -2,4 +2,8 @@
 Exemplos de implementação utilizando o microcontrolador PIC18 e o assembler GPASM.
 
 ## Display (HD44780) e teclado matricial
+**Obs:** O código pressupõe que os resistores estão em pull-down, apesar do print abaixo.
+Provavelmente um erro do SimulIDE, já que a versão em pull-up (o correto, seguindo o esquemático) não funciona como deveria.
+É um pequeno detalhe: basta trocar as instruções que usam o BTFSC e BTFSS de acordo. 
+
 ![Print da simulação.](https://github.com/KaiqueZambrano/PIC18F4550-Assembly/blob/main/display_teclado/sim-display-teclado.png)
