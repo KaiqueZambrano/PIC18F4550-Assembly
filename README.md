@@ -13,11 +13,12 @@ Início da simulação do firmware:
 
 ![Gif sim1 exemplo 2](https://github.com/KaiqueZambrano/PIC18F4550-Assembly/blob/main/app-senha/sim1.gif)
 
-Ao inserir a senha correta (RA do aluno):
+Ao inserir a senha **correta** (RA do aluno):
 
 ![Gif sim1 exemplo 2](https://github.com/KaiqueZambrano/PIC18F4550-Assembly/blob/main/app-senha/sim2.gif)
 
-Ao inserir uma senha incorreta:
+Ao inserir uma senha **incorreta**:
 
 ![Gif sim1 exemplo 2](https://github.com/KaiqueZambrano/PIC18F4550-Assembly/blob/main/app-senha/sim3.gif)
 
+Após o período de **20 segundos**, a senha também será avaliada como incorreta.
